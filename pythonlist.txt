@@ -1,0 +1,103 @@
+lista
+['a', 'b', 'c', 'd', 'd', 'e']
+
+lista[:]
+['a', 'b', 'c', 'd', 'd', 'e']
+
+lista[:0]
+[]
+
+lista[:1]
+['a']
+
+list[:2]
+['a', 'b']
+
+lista[:3]
+['a', 'b', 'c']
+
+lista[:4]
+['a', 'b', 'c', 'd']
+
+lista[:5]
+['a', 'b', 'c', 'd', 'd']
+
+lista[:6]
+['a', 'b', 'c', 'd', 'd', 'e']
+
+lista[0:]
+['a', 'b', 'c', 'd', 'd', 'e']
+
+lista[1:]
+['b', 'c', 'd', 'd', 'e']
+
+lista[2:]
+['c', 'd', 'd', 'e']
+
+lista[3:]
+['d', 'd', 'e']
+
+lista[4:]
+['d', 'e']
+
+lista[5:]
+['e']
+
+lista[6:]
+[]
+
+lista[0:-1]
+['a', 'b', 'c', 'd', 'd']
+
+lista[0:-2]
+['a', 'b', 'c', 'd']
+
+lista[0:-3]
+['a', 'b', 'c']
+
+lista[0:-4]
+['a', 'b']
+
+lista[0:-5]
+['a']
+
+lista[1:-1]
+['b', 'c', 'd', 'd']
+
+lista[1:3]
+['b', 'c']
+
+Reverse a list:
+lista[::-1]
+['e', 'd', 'd', 'c', 'b', 'a']
+
+lista[:2:-1]
+['e', 'd', 'd']
+
+lista[:0:-1]
+['e', 'd', 'd', 'c', 'b']
+
+lista[:4:-1]
+['e']
+
+lista.reverse()
+lista
+['e', 'd', 'd', 'c', 'b', 'a']
+
+List to dict:
+lista = {k:v for v, k in enumerate(lista)}
+lista 
+{'a': 0, 'b': 1, 'e': 5, 'c': 2, 'd': 4}
+
+lista.items()
+dict_items([('a', 0), ('b', 1), ('e', 5), ('c', 2), ('d', 4)])
+
+lista.values()
+dict_values([0, 1, 5, 2, 4])
+
+lista.keys()
+dict_keys(['a', 'b', 'e', 'c', 'd'])
+
+dict.items(lista)
+dict_items([('a', 0), ('b', 1), ('e', 5), ('c', 2), ('d', 4)])
+
