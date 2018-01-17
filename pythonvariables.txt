@@ -1,0 +1,9 @@
+Python Variable:
+
+Assign value 10 to var
+var = 10
+
+If you like to print what you have assigned for var two ways you can print var:
+i) type var in command prompt which gives value 10 
+ii) type print(var) in command prompt or in the script you are trying to run, this gives the result 10.
+
