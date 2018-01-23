@@ -1,0 +1,20 @@
+Python Strings:
+
+1) Declare a string to a variable
+var1 = "Hello"
+var2 = 'Hello'
+
+2) Print a string
+>>print(var1)
+>>'Hello'
+
+>>print(var2)
+>>Hello
+
+3) Reverse a string
+>>var2[::-1]
+'olleH'
+
+>>> print(var2[::-1])
+olleH
+ 
